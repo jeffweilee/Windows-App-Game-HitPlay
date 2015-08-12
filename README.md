@@ -7,6 +7,6 @@
 ## Hit and Play
 	- Hit corresponding figure (Dong Dong) to get scores 
 	
-*Pictures are referenced by  http://ratcontrolreviews.com/rat-trapping-dont-get-started-without-some-good-tips
+*Pictures reference  http://ratcontrolreviews.com/rat-trapping-dont-get-started-without-some-good-tips
 
 *For practice educational purpose only 
