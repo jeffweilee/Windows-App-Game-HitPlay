@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="HitPlay.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HitPlay"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="BtnGameIntro" Content="遊戲介紹" HorizontalAlignment="Left" Margin="466,261,0,0" VerticalAlignment="Top" Height="122" Width="440" FontSize="36" Click="BtnGameIntro_Click"/>
+        <Button x:Name="BtnStartPlay" Content="開始遊戲" HorizontalAlignment="Left" Margin="466,441,0,0" VerticalAlignment="Top" Height="122" Width="440" FontSize="36" Click="BtnStartPlay_Click"/>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Margin="469,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="272" Width="434" FontSize="72" FontWeight="Bold">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0A1BC9" Offset="0.014"/>
+                    <GradientStop Color="#FF090A09" Offset="0.996"/>
+                    <GradientStop Color="#FF316C09" Offset="0.62"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        	<Run Text="HIT"/>
+        	<LineBreak/>
+        	<Run Text="Dong Dong"/>
+        </TextBlock>
+        <Image Source="Assets/a.png" x:Name="a9"  Height="167" Margin="1195,577,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="132" />
+        <Image Source="Assets/b.png" x:Name="b9"  Height="188" Margin="902,556,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="140" />
+        <Image Source="Assets/c.png" x:Name="c9"  Height="188" Margin="1059,577,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="112" />
+        <Image Source="Assets/hammer.png" Stretch="Fill" HorizontalAlignment="Left" Height="104.526" Margin="52.36,105.39,0,0" VerticalAlignment="Top" Width="227.064" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-15.53"/>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Page>

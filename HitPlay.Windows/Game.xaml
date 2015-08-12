@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="HitPlay.Game"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HitPlay"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="gridBg" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Assets/bg.png" Width="1366" Height="770" Margin="0,-2,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="90" Width="277" FontSize="36" FontWeight="Bold">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0A1BC9" Offset="0.014"/>
+                    <GradientStop Color="#FF090A09" Offset="0.996"/>
+                    <GradientStop Color="#FF316C09" Offset="0.62"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        	<Run Text="EAT-SLEEP-"/>
+        	<LineBreak/>
+        	<Run Text="HIT Dong Dong"/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="966,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="165" FontSize="36" Text="Time：" Foreground="#FFD9D9E4" FontWeight="Bold"/>
+        <TextBlock x:Name="lblScore" Text="" HorizontalAlignment="Left" Margin="1131,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="187" FontSize="36" FontWeight="Bold">
+        	<Run Text=""/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Text="Score：" Margin="966,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="165" FontSize="36" Foreground="#FFD8D8E6" FontWeight="Bold">
+
+        </TextBlock>
+        <TextBlock x:Name="lblTime" Text="{Binding Path=Points, Mode=OneWay}" HorizontalAlignment="Left" Margin="1131,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="187" FontSize="36" FontWeight="Bold">
+        </TextBlock>
+        <Image Source="Assets/a.png" x:Name="a1" PointerPressed="a_PointerPressed" Visibility="Collapsed" Height="160" Margin="192,447,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b1" PointerPressed="b_PointerPressed" Visibility="Collapsed" Height="160" Margin="192,459,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c1" PointerPressed="c_PointerPressed" Visibility="Collapsed" Height="160" Margin="190,457,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/a.png" x:Name="a2" PointerPressed="a_PointerPressed" Visibility="Collapsed" Height="160" Margin="630,447,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b2" PointerPressed="b_PointerPressed" Visibility="Collapsed" Height="160" Margin="630,459,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c2" PointerPressed="c_PointerPressed" Visibility="Collapsed" Height="160" Margin="628,459,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/a.png" x:Name="a3" PointerPressed="a_PointerPressed" Visibility="Collapsed" Height="160" Margin="1073,447,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b3" PointerPressed="b_PointerPressed" Visibility="Collapsed" Height="160" Margin="1073,459,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c3" PointerPressed="c_PointerPressed" Visibility="Collapsed" Height="160" Margin="1071,459,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/a.png" x:Name="a4" PointerPressed="a_PointerPressed" Visibility="Collapsed" Height="160" Margin="108,287,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b4" PointerPressed="b_PointerPressed" Visibility="Collapsed" Height="160" Margin="108,299,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c4" PointerPressed="c_PointerPressed" Visibility="Collapsed" Height="160" Margin="106,297,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/a.png" x:Name="a5" PointerPressed="a_PointerPressed" Visibility="Collapsed" Height="160" Margin="543,287,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b5" PointerPressed="b_PointerPressed" Visibility="Collapsed" Height="160" Margin="543,299,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c5" PointerPressed="c_PointerPressed" Visibility="Collapsed" Height="160" Margin="541,299,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/a.png" x:Name="a6" PointerPressed="a_PointerPressed" Visibility="Collapsed" Height="160" Margin="1001,287,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b6" PointerPressed="b_PointerPressed" Visibility="Collapsed" Height="160" Margin="1001,299,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c6" PointerPressed="c_PointerPressed" Visibility="Collapsed" Height="160" Margin="999,299,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/a.png" x:Name="a7" PointerPressed="a_PointerPressed" Visibility="Collapsed" Height="160" Margin="240,135,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b7" PointerPressed="b_PointerPressed" Visibility="Collapsed" Height="160" Margin="240,147,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c7" PointerPressed="c_PointerPressed" Visibility="Collapsed" Height="160" Margin="238,147,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <!--<Image Source="Assets/a.png" x:Name="a8" Visibility="Collapsed" Height="160" Margin="660,135,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b8" Visibility="Collapsed" Height="160" Margin="660,135,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c8" Visibility="Collapsed" Height="160" Margin="658,147,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        -->
+        <Image Source="Assets/a.png" x:Name="a9" PointerPressed="a_PointerPressed" Visibility="Collapsed" Height="160" Margin="1073,135,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/b.png" x:Name="b9" PointerPressed="b_PointerPressed" Visibility="Collapsed" Height="160" Margin="1073,147,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Image Source="Assets/c.png" x:Name="c9" PointerPressed="c_PointerPressed" Visibility="Collapsed" Height="160" Margin="1071,147,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+
+        <Image x:Name="imgLead" Canvas.ZIndex="3" HorizontalAlignment="Left" Height="140" Margin="608,29,0,0" VerticalAlignment="Top" Width="163"/>
+        <TextBlock x:Name="test" HorizontalAlignment="Left" Height="91" Margin="74,130,0,0" VerticalAlignment="Top" Width="529" FontSize="24"/>
+        <Image Source="Assets/hammer.png" Stretch="Fill" HorizontalAlignment="Left" Height="81" Margin="420,24.5,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-15.53"/>
+            </Image.RenderTransform>
+        </Image>
+
+        <Rectangle x:Name="endScreen" Visibility="Collapsed" Canvas.ZIndex="2"  Stretch="Fill"  HorizontalAlignment="Left" Height="768" StrokeThickness="5" VerticalAlignment="Top" Width="1366" Fill="#CC000000"/>
+        <TextBlock x:Name="txtEnd" Canvas.ZIndex="2" Visibility="Collapsed" HorizontalAlignment="Left" Height="150" Margin="38,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1280" FontSize="72" TextAlignment="Center"/>
+        <Button x:Name="btnContinuePlay" Content="繼續遊戲" Canvas.ZIndex="2" Visibility="Collapsed" HorizontalAlignment="Left" Margin="482,398,0,0" VerticalAlignment="Top" Height="122" Width="440" FontSize="36" Click="ContinueButton_Click" PointerPressed="ContinueButton_PointerPressed"/>
+        <Button x:Name="btnReplay" Content="再玩一次" Canvas.ZIndex="2"  Visibility="Collapsed" HorizontalAlignment="Left" Margin="482,398,0,0" VerticalAlignment="Top" Height="122" Width="440" FontSize="36" Click="ReplayButton_Click" PointerPressed="ReplayButton_PointerPressed"/>
+        <Button x:Name="btnBackMenu" Background="Transparent" Content="回到開始" Canvas.ZIndex="2" Visibility="Collapsed"  HorizontalAlignment="Left" Margin="482,543,0,0" VerticalAlignment="Top" Height="122" Width="440" FontSize="36" Click="BackMenuButton_Click" PointerPressed="BackMenuButton_PointerPressed"/>
+        <Button Content="|| Pause"  Canvas.ZIndex="1" HorizontalAlignment="Left" Margin="76,110,0,0" VerticalAlignment="Top" Click="PauseButton_Click" PointerPressed="PauseButton_PointerPressed"/>
+        <TextBlock x:Name="txtDiaogue" Canvas.ZIndex="2" HorizontalAlignment="Left" Height="93" Margin="314,655,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="783" FontSize="48" TextAlignment="Center" Foreground="#FFF7FBF7"/>
+
+    </Grid>
+</Page>

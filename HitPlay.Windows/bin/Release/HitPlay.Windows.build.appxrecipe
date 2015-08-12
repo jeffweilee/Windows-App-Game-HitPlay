@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MTC_JEFFLEE_PC</Machine>
+    <WindowsUser>v-lejeff</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>52718jeffweilee.HitDongDong</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\bin\Release\HitPlay.Windows.exe">
+      <PackagePath>HitPlay.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\2.png">
+      <PackagePath>Assets\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\b.png">
+      <PackagePath>Assets\b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\3.png">
+      <PackagePath>Assets\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\a.png">
+      <PackagePath>Assets\a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\c.png">
+      <PackagePath>Assets\c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\hammer.png">
+      <PackagePath>Assets\hammer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\bg.jpg">
+      <PackagePath>Assets\bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\bin\Release\Game.xbf">
+      <PackagePath>Game.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\bin\Release\Intro.xbf">
+      <PackagePath>Intro.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\bin\Release\HitPlay.Windows.xr.xml">
+      <PackagePath>HitPlay.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Windows\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

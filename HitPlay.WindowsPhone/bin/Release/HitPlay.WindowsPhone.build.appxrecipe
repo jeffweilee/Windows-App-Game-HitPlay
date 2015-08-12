@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MTC_JEFFLEE_PC</Machine>
+    <WindowsUser>v-lejeff</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>4a184d1a-9eeb-4735-807e-f147f1c71dfd</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\bin\Release\HitPlay.WindowsPhone.exe">
+      <PackagePath>HitPlay.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\Assets\BadgeLogo.scale-240.png">
+      <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\2.png">
+      <PackagePath>Assets\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\b.png">
+      <PackagePath>Assets\b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\3.png">
+      <PackagePath>Assets\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\a.png">
+      <PackagePath>Assets\a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\c.png">
+      <PackagePath>Assets\c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.Shared\Assets\hammer.png">
+      <PackagePath>Assets\hammer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\Assets\bg.jpg">
+      <PackagePath>Assets\bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\bin\Release\Game_phone.xbf">
+      <PackagePath>Game_phone.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\bin\Release\Intro.xbf">
+      <PackagePath>Intro.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\bin\Release\HitPlay.WindowsPhone.xr.xml">
+      <PackagePath>HitPlay.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-lejeff\Documents\Visual Studio 2013\Projects\HitPlay\HitPlay\HitPlay.WindowsPhone\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
